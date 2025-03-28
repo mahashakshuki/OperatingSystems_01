@@ -13,3 +13,8 @@ $ gcc producer.c -pthread -lrt -o producer
 $ gcc consumer.c -pthread -lrt -o consumer 
 $ ./producer & ./consumer &  
 
+The output should be: 
+- The Producer will generate items and place them on the table.
+- The Consumer will pick up the items from the table.
+- If the table is full, the Producer will wait until space is available.
+- If the table is empty, the Consumer will wait until items are available.
