@@ -1,4 +1,4 @@
-// shared.h
+
 #ifndef SHARED_H
 #define SHARED_H
 
@@ -8,4 +8,4 @@
 #define SEM_FULL_NAME  "/sem_full"        // Semaphore for filled slots
 #define MAX_ITEMS 2                       // Table size
 
-#endif  // SHARED_H
+#endif  
